@@ -21,7 +21,7 @@ header{
     display: block;
 }
 #header .header-desktop {
-    background: #fefefe;
+    background: #131212;
     border-radius: 0 0 1.25rem 1.25rem;
     padding: 1.5625rem 0 0.875rem;
     position: fixed;
@@ -48,8 +48,7 @@ header{
 }
 
 #header .header-desktop .header-logo img {
-    width: 6.3125rem;
-    height: 2.25rem;
+    max-width: 100px; 
 }
 
 #header .header-desktop .links .header-nav>li {
