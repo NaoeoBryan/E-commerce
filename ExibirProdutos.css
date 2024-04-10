@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+.produto-info img {
+    max-width: 100px; /* Define a largura máxima da imagem */
+    margin-bottom: 20px; /* Espaçamento à direita para separar da descrição */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background: linear-gradient(to left, #c9d6ff, #BF2517);
+    margin: 0;
+    padding: 0;
+}
+.logo-container {
+    flex: 1; /* Expande para ocupar o espaço disponível */
+}
+
+.logo-container img {
+    margin: 3px;
+    padding: 3px;
+    max-width: 150px; /* Ajuste o tamanho máximo da logo conforme necessário */
+    vertical-align: middle;
+    
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+.produtos-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.produto {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produto h3 {
+    margin-top: 0;
+    color: #BF2517;
+}
+
+.produto p {
+    margin: 10px 0;
+}
+

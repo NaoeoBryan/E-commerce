@@ -16,17 +16,30 @@ body{
     flex-direction: column;
     height: 100vh;
 }
+
+.logo-container {
+    flex: 1; /* Expande para ocupar o espaço disponível */
+    
+}
+
+.logo-container img {
+    margin: 3px;
+    padding: 3px;
+    max-width: 150px; /* Ajuste o tamanho máximo da logo conforme necessário */
+    vertical-align: middle;
+    
+}
  /*  */ 
 .container{
      /*Cor de traz da virada do container*/ 
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.35);
     position: relative;
     overflow: hidden;
-    width: 768px;
+    width: 800px;
     max-width: 100%;
-    min-height: 480px;
+    min-height: 500px;
 }
 
 .container p{
@@ -37,20 +50,20 @@ body{
 }
 
 .container span{
-    font-size: 13px;
+    font-size: 14px;
    
 }
 
 .container a{
-    color: #333;
-    font-size: 16px;
+    color: #000000;
+    font-size: 15px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
 
 .container button{
     background-color: #a83b2d;
-    color: #fff;
+    color:  #fff;
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
